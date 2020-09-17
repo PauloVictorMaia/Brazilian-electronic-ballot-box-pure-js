@@ -5,8 +5,22 @@ let aviso = document.querySelector('.d-2');
 let latera = document.querySelector('.d-1-right');
 let numeros = document.querySelector('.d-1-3');
 
-function clicou(n) {
+let etapaAtual = 0;
 
+function comecarEtapa() {
+    let etapa = etapas[etapaAtual];
+    let numeroHtml = '';
+
+    seuVotoPara.style.display = 'none';
+    cargo.innerHTML = etapa.título;
+    Descricao.innerHTML = '';
+    aviso.innerHTML = 'none';
+    latera.innerHTML = '';
+    numeros.innerHTML = numeroHtml;
+}
+
+function clicou(n) {
+    
 };
 
 function branco() {
@@ -20,3 +34,5 @@ function corrige() {
 function confirma() {
 
 };
+
+comecarEtapa();
