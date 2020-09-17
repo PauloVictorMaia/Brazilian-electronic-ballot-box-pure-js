@@ -10,7 +10,6 @@
     <div class="urna">
         <div class="tela">
             <div class="d-1">
-                
                 <div class="d-1-left">
                     <div class="d-1-1">
                         <span>SEU VOTO PARA</span>
@@ -51,37 +50,39 @@
 
         <div class="teclado">
             <div class="teclado--linha">
-                <div class="teclado--botão">1</div>
-                <div class="teclado--botão">2</div>
-                <div class="teclado--botão">3</div>
+                <div class="teclado--botão" onclick="clicou('1')">1</div>
+                <div class="teclado--botão" onclick="clicou('2')">2</div>
+                <div class="teclado--botão" onclick="clicou('3')">3</div>
             </div>
 
             <div class="teclado--linha">
-                <div class="teclado--botão">4</div>
-                <div class="teclado--botão">5</div>
-                <div class="teclado--botão">6</div>
+                <div class="teclado--botão" onclick="clicou('4')">4</div>
+                <div class="teclado--botão" onclick="clicou('5')">5</div>
+                <div class="teclado--botão" onclick="clicou('6')">6</div>
             </div>
 
             <div class="teclado--linha">
-                <div class="teclado--botão">7</div>
-                <div class="teclado--botão">8</div>
-                <div class="teclado--botão">9</div>
+                <div class="teclado--botão" onclick="clicou('7')">7</div>
+                <div class="teclado--botão" onclick="clicou('8')">8</div>
+                <div class="teclado--botão" onclick="clicou('9')">9</div>
             </div>
 
             <div class="teclado--linha">
-                <div class="teclado--botão">0</div>
+                <div class="teclado--botão" onclick="clicou('0')">0</div>
             </div>
 
             <div class="teclado--linha">
-                <div class="teclado--botão botao--branco">Branco</div>
-                <div class="teclado--botão botao--corrige">Corrige</div>
-                <div class="teclado--botão botao--confirma">Confirma</div>
+                <div class="teclado--botão botao--branco" onclick="branco()">Branco</div>
+                <div class="teclado--botão botao--corrige" onclick="corrige()">Corrige</div>
+                <div class="teclado--botão botao--confirma" onclick="confirma()">Confirma</div>
             </div>
 
 
         </div>
     </div>
 
+<script src="etapas.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
