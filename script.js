@@ -11,6 +11,10 @@ function comecarEtapa() {
     let etapa = etapas[etapaAtual];
     let numeroHtml = '';
 
+    for(let i=0;i<etapa.numeros;i++) {
+        numeroHtml += '<div class="numero"></div>';
+    }
+
     seuVotoPara.style.display = 'none';
     cargo.innerHTML = etapa.título;
     Descricao.innerHTML = '';
@@ -20,19 +24,19 @@ function comecarEtapa() {
 }
 
 function clicou(n) {
-    
+    alert('clicou em' +n)
 };
 
-function branco() {
-
+function branco(info) {
+    alert('clicou em'+info)
 };
 
-function corrige() {
-
+function corrige(info) {
+    alert('clicou em'+info)
 };
 
-function confirma() {
-
+function confirma(info) {
+    alert('clicou em'+info)
 };
 
 comecarEtapa();
