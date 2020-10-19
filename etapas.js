@@ -3,30 +3,32 @@ let etapas = [
         título: 'VEREADOR',
         numeros:5,
         candidatos:[
-                { numero: 38111,
+                { numero: '38111',
                 name: 'Lula',
                 partido: 'PT',
-                foto:[{
+                fotos:[{
                     url:'download.jpeg', legenda:'vereador', small: false 
                 }]  
-                }
-            ]
-    },
-
-                { numero:77222,
+                },
+                
+                { numero:'77222',
                 name: 'jailson Mendes',
                 partido: 'PSDB',
                 fotos:[{
                     url:'2.jpeg', legenda: 'Vereador'
                 }]
                 },
+            ]      
+    },
+
+                
 
     {
         título: 'PREFEITO',
         numero: 2,
         candidatos: [
             {
-                numero:99,
+                numero:'99',
                 name:'fruit juice',
                 parido: 'sacomene',
                 vice:'Greg',
@@ -39,7 +41,7 @@ let etapas = [
     },
 
             {
-                numero: 10,
+                numero: '10',
                 name: 'Dilma',
                 partido: 'Mandioca',
                 vice: 'Nando Moura',
